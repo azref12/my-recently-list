@@ -1,0 +1,14 @@
+Urls :
+
+- Genre :
+  * {{url}}genre/genre/
+  * {{url}}genre/genre_detail/1
+  * {{url}}genre/genre_search/?id=1
+- Kdrama :
+  * {{url}}kdrama/kdrama/
+  * {{url}}kdrama/kdrama_detail/1
+  * {{url}}kdrama/kdrama_search/?id=1
+- Movies :
+  * {{url}}movies/movies/
+  * {{url}}movies/movies_detail/1
+  * {{url}}movies/movies_search/?id=1
