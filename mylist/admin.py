@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import kategori, mylist
 
-# Register your models here.
+admin.site.register(kategori)
+admin.site.register(mylist)

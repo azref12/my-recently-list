@@ -1,9 +1,16 @@
-# from rest_framework import serializers
-# from .models import *
+from rest_framework import serializers
+from .models import *
 
-# class ListSerializers (serializers.ModelSerializer) : 
+class CategorySerializers (serializers.ModelSerializer) : 
     
-#     class Meta : 
-#         model = mylist
-#         # fields = ['id','title','movies_title','id_genre']
-#         fields = "__all__" 
+    class Meta : 
+        model = kategori
+        # fields = ['id','category_name']
+        fields = "__all__" 
+
+class ListSerializers (serializers.ModelSerializer) : 
+    
+    class Meta : 
+        model = mylist
+        # fields = ['id_list','genre_id','categoryname','titles','rating']
+        fields = "__all__" 

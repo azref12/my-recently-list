@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'genre',
     'kdrama',
     'movies',
-    # 'mylist',
+    'mylist',
 ]
 
 MIDDLEWARE = [

@@ -7,4 +7,5 @@ urlpatterns = [
     url (r'^genre/', include('genre.urls')),
     url (r'^kdrama/', include('kdrama.urls')),
     url (r'^movies/', include('movies.urls')),
+    # url (r'^mylist/', include('mylist.urls')),
 ]
